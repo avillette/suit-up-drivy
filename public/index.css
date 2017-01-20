@@ -1,0 +1,79 @@
+html,body{
+    height : 100%;
+    background-color: #f5f5f5;
+    margin: auto;
+}
+
+label {
+    /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    /*padding-left : 60px;*/
+}
+
+
+
+input
+{
+    width : 150px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+h1{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#compute{
+    font-size: x-large;
+}
+
+
+
+/*test*/
+
+h2{
+    color : #cc0000;
+}
+
+
+#aboutCar,#aboutRent {
+    width : 400px ;
+    background : #f5f5f5 ;
+    border : #000000 thin solid ;
+    margin : 40px auto 0 auto ;
+    border-radius: 10px;
+}
+
+#aboutCar{
+    height: auto;
+}
+
+#aboutRent{
+    height: auto;
+}
+
+
+.titre{
+    display : block ;
+    position : relative ;
+    margin : -12px 0 0 20px ;
+    float : left ;
+    color : #cc0000 ;
+    font-size : 18px ;
+    background : #f5f5f5 ;
+}
+
+.bloc1{
+    height: 50px;
+    text-align: center;
+}
+
+img {
+    vertical-align:top;
+}

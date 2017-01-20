@@ -1,21 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
   <head>
-    <title>CSS/HTML Workshop with Drivy</title>
+      <meta charset="utf-8" />
+      <title>CSS/HTML Workshop with Drivy</title>
+      <link rel="stylesheet" href="index.css" />
+
   </head>
   <body>
+    <div>
+        <h1> How many to rent a car ?<img class="img" src="car.png"/></h1>
+    </div>
+
     <div id="car">
-      <input class="model" type="text" placeholder="Car model"/>
-      <input class="price-by-day" type="number" placeholder="Price by day"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
+        <div id = "aboutCar">
+            <span class="titre">About the car</span><br/>
+            <div class="bloc1">
+                <label>Car model</label><input class="model" type="text" placeholder="Car model"/>
+            </div>
+
+            <div class="bloc1">
+                <label>Price per day</label><input class="price-by-day" type="number" placeholder="Price by day"/>
+            </div>
+
+            <div class="bloc1">
+                <label>Price per km</label><input class="price-by-km" type="number" placeholder="Price by km"/>
+            </div>
+        </div>
     </div>
+
+
+
     <div id="rental">
-      <input class="begin" type="date" placeholder="Rental begin date"/>
-      <input class="end" type="date" placeholder="Rental end date"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
+        <div id = "aboutRent">
+            <span class="titre">About the rental</span><br/>
+
+            <div class="bloc1">
+                <label>Rental begin date</label><input class="begin" type="date" placeholder="Rental begin date"/>
+            </div>
+
+            <div class="bloc1">
+                <label>Rental end date</label><input class="end" type="date" placeholder="Rental end date"/>
+            </div>
+
+            <div class="bloc1">
+                <label>Distance in km</label><input class="distance" type="number" placeholder="Distance in km"/>
+            </div>
+
+            <div class="bloc1">
+                <label>Deductible option</label><input class="option" type="checkbox" placeholder="Deductible option"/>
+            </div>
+
+        </div>
+
     </div>
-    <button id="compute">Compute</button>
+
+    
+    <div class="computeBouton">
+        <button id="compute">Compute</button>
+    </div>
+
+
+
     <div id="actors"></div>
     <script id="template" type="x-tmpl-mustache">
       {{#actors}}
